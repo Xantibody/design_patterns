@@ -30,7 +30,7 @@ def main():
     factory_a = FactoryA()
     factory_b = FactoryB()
     product_a = factory_a.factory_method()
-    product_b = factory_a.factory_method()
+    product_b = factory_b.factory_method()
 
 # 判別する引数いらないから間違えにくい
 # そこそこクラスがかさばる
